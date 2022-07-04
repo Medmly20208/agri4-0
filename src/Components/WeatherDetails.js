@@ -69,7 +69,7 @@ const WeatherDetails = (props) => {
             <ChartCurve
               temperature={temperature}
               humidty={humidity}
-              HistoricalData={HistoricalData.reverse()}
+              HistoricalData={HistoricalData}
             ></ChartCurve>
           )}
         </div>
