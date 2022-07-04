@@ -14,7 +14,7 @@ const WeatherDetails = (props) => {
     fetch(
       `https://dataservice.accuweather.com/currentconditions/v1/245771/historical${
         Chosenrange != "6" ? "/24" : ""
-      }?apikey=KLt0LkjAqxu8Tnt1XEGilkIa9yAWrzjs&language=fr-FR&details=true`
+      }?apikey=vnYWTCUHGg8RY3V8GqyKfLlkv2ypOjXc&language=fr-FR&details=true`
     )
       .then((res) => res.json())
       .then((res) => {

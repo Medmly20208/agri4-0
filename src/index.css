@@ -18,3 +18,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.togglerInactive{
+  display: block;
+  position: relative;
+  width:60px;
+  background-color: gray;
+  border-radius: 30px;
+  height: 34px;
+  padding: 2px;
+  }
+
+  .toggleractive{
+    display: block;
+    position: relative;
+     width:60px;
+     
+     padding: 2px;
+     background-color:rgb(101 89 255);
+     border-radius: 30px;
+     height: 34px;
+    
+    }
+
+.sliderInactive{
+  display: block;
+  position: absolute;
+  display: block;
+  
+  right:0;
+  width: 30px;
+  height:30px;
+  border-radius: 50%;
+  background-color: white;
+  
+}
+
+.slideractive{
+  position: absolute;
+  display: block;
+  right:1;
+  width: 30px;
+  height:30px;
+  border-radius: 50%;
+  background-color: white;
+
+
+}

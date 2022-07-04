@@ -13,9 +13,15 @@ const AlertItemWind = (props) => {
         <div>
           <div
             onClick={toggleHandler}
-            className="cursor-pointer border rounded-xl border-purple-500 bg-purple-500 p-4 mb-2 text-white hover:bg-purple-300 hover:border-purple-300"
+            className={
+              "toggler" +
+              (Toggler == true ? "active" : "Inactive") +
+              " z-50 cursor-pointer"
+            }
           >
-            Toggle
+            <div
+              className={"slider" + (Toggler == true ? "Inactive" : "active")}
+            ></div>
           </div>
         </div>
         <div className="text-sm ">
